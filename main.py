@@ -9,7 +9,7 @@ reddit = praw.Reddit(
     username="bot-of-grond",
 )
 
-triggers = ["grond", "gonk", "wolf's head", "open the gate"] #need more... ?
+triggers = ["grond", "gonk", "wolf's head", "open the gate", "speak friend and enter", "you are soldiers of gondor"] #need more... ?
 
 subreddit = reddit.subreddit("lotrmemes")
 
