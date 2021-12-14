@@ -9,12 +9,16 @@ reddit = praw.Reddit(
     username="bot-of-grond",
 )
 
+triggers = ["grond", "gonk", "wolf's head", "open the gate"] #need more... ?
+
 subreddit = reddit.subreddit("lotrmemes")
 
 for comment in subreddit.stream.comments(skip_existing=True):
   try:
     text = comment.body.lower()
-    if ("grond" in text or "gonk" in text or "wolf's head" in text or "open the gate" in text) and comment.author != "bot-of-grond":
-      comment.reply("GROND")
+
+    if any(trigger in text for trigger in triggers) and comment.author != "bot-of-grond": #avoid infinite GROND chain
+      comment.reply("GROND") #GROND
+
   except Exception as exception:
-    print(exception)
+    print(exception) #evil code that stinks
