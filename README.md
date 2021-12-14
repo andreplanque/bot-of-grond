@@ -1,1 +1,3 @@
 Great engines crawled across the field; and in the midst was a huge ram, great as a forest-tree a hundred feet in length, swinging on mighty chains. Long had it been forging in the dark smithies of Mordor, and its hideous head, founded of black steel, was shaped in the likeness of a ravening wolf; on it spells of ruin lay. Grond they named it, in memory of the Hammer of the Underworld of old. Great beasts drew it, orcs surrounded it, and behind walked mountain-trolls to wield it.
+
+Thrice the great ram boomed. And suddenly upon the last stroke the Gate of Gondor broke. As if stricken by some blasting spell it burst asunder: there was a blast of searing lightning, and the doors tumbled in riven fragments to the ground.
