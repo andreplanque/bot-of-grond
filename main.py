@@ -1,6 +1,8 @@
 import praw
 import os
 
+print("GROND")
+
 reddit = praw.Reddit(
     client_id=os.environ['client_id'],
     client_secret=os.environ['client_secret'],
@@ -9,7 +11,7 @@ reddit = praw.Reddit(
     username="bot-of-grond",
 )
 
-triggers = ["grond", "gonk", "wolf's head", "hound's head", "open the gate", "speak friend and enter", "you are soldiers of gondor", "hammer of the underworld", "morgoth's warhammer"] #need more... ?
+triggers = ["grond", "gonk", "gronk", "wolf's head", "hound's head", "open the gate", "speak friend and enter", "you are soldiers of gondor", "hammer of the underworld", "morgoth's warhammer"] #need more... ?
 
 subreddit = reddit.subreddit("lotrmemes")
 
