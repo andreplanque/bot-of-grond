@@ -35,5 +35,3 @@ for comment in subreddit.stream.comments(skip_existing=True):
 
   except Exception as exception:
     print(exception) #evil code that stinks
-
-    
